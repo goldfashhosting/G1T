@@ -21,8 +21,8 @@ GitHub Branch:     master
 
 function glow_init()
 {
- require ('inc/gfunctions/functions.php');
- include('inc/gfunctions/codes.php');
+ require (RC_SCD_PLUGIN_URL.'inc/gfunctions/functions.php');
+ include(RC_SCD_PLUGIN_URL.'inc/gfunctions/codes.php');
  //require ('inc/webapps/shortcodes.php');
 }
 add_action('admin_menu', 'G1T_menu');
