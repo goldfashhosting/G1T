@@ -1,0 +1,22 @@
+== Changelog ==
+**Bug fixes**
+
+* Admin: Resolved Header Function Errors
+
+
+= 2.0.1 =
+Release Date: March 27, 2018
+Release Post: #
+
+* Enhancement: Speed Improvements (woohoo!).
+* Enhancement: Add site icons: an avatar for your blog.
+* Enhancement: Improvements to API endpoints.
+* Enhancement: Add oEmbed sources (Twitter, SoundCloud, Instagram,
+DailyMotion, Vine).
+* Enhancement: Add Admin G1T Links.
+* Enhancement: Improve debug tool.
+* Enhancement: Add new 
+
+= 1.0 =
+
+* Initial release
