@@ -12,7 +12,7 @@ License URI: https://goldfash.com?pluginLicense
 G1T for WP automatically adds Custom  G1T Approved Tools & functionalities to your WordPress site. G1T makes your website faster for All visitors while keeping an eye out.
 
 == Description ==
-[What\'s New in this Version?](http://ampforwp.com/new/)
+[What's New in this Version?](http://goldfash.com/?G1TWp=Latest)
 Tracking
 
 Some useful extensions to extend G1T WP analytics, Contact [G1T Analytics Support](https://goldfash.com/Reseller/production/?do=[GoToMail]&_g=aHR0cHM6Ly9nb2xkZmFzaC5jb20vbWFpbC8jY29tcG9zZS90by9tYWlsdG86aWEtb2Nlby0wMDFAaW8uZ29sZGZhc2guY29tP3N1YmplY3Q9W1dQLVBsdWdpbl9HMVQtU3VwcG9ydF0=&G1T:Ref=WP_Plugin_AlertsClick)
