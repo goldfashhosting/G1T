@@ -92,7 +92,7 @@ function gold_admin_notice() {
         /* Check that the user hasn't already clicked to ignore the message */
 	if ( ! get_user_meta($user_id, 'gold_ignore_notice') ) {
         echo '<div class="updated"><p>'; 
-        printf(__('* G1T Tracking is Enabled! | <a href="%1$s" target="G1TD">Visit your G1T Dash for more details.</a>'), 'https://goldfash.com/Reseller/production/?page=[OurAhome]&view=qu&this='. $_SERVER['HTTP_HOST'] .'&ref='. $_SERVER['HTTP_HOST'] .'/wp-admin/admin.php?page=G1T');
+        printf(__('* G1T Analytics is Enabled! | <a href="%1$s" target="G1TD">Visit G1T Analytics for more details.</a>'), 'https://goldfash.com/views/?do=Analytics&views=api&view=qu&ss='. $_SERVER['HTTP_HOST'] .'&ref='. $_SERVER['HTTP_HOST'] .'/wp-admin/admin.php?page=G1T');
         echo "</p></div>";
 	}
 }
