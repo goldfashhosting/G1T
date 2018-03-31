@@ -48,7 +48,7 @@ function G1T_shout_action() {
     echo $trac; 
 }
 add_action('wp_head', 'G1T_verify');
-function G1T_shout_action() { 
+function G1T_verify() { 
      echo '<meta name="google-site-verification" content="vV6aL2FtvV0GZX8FfZJ8o3z42vzkOc0u5mYnwWC6png" />';
 }
 // plugin folder url
