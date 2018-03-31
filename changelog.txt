@@ -1,10 +1,20 @@
 == Changelog ==
 **Bug fixes**
 
-* Admin: Resolved Header Function Errors
+* Admin: Changed Alert From G1T Tracking to G1T Analytics
+* Admin: Changed Analytics SSO Link
+* FrontEnd: Added Verifications
 
 
-= 2.0.1 =
+== 2.0.2 ==
+Release Date: March 31, 2018
+Release Post: #
+
+* Enhancement: More Speed Improvements (woohoo!).
+* Enhancement: Add new Verification Script
+* Enhancement: Admin Analytics Changes.
+
+== 2.0.1 ==
 Release Date: March 27, 2018
 Release Post: #
 
@@ -15,8 +25,7 @@ Release Post: #
 DailyMotion, Vine).
 * Enhancement: Add Admin G1T Links.
 * Enhancement: Improve debug tool.
-* Enhancement: Add new 
 
-= 1.0 =
+== 1.0 ==
 
 * Initial release
