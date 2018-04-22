@@ -202,10 +202,10 @@ function G1T_head() {
      if( $G1TGLOWPlugin->get_setting('G1T_FB_ProfileID_Data') == 'yes' ){
      echo '<meta property="og:type"               content="profile" />
         <meta property="fb:profile_id" content"'. $G1TGLOWPlugin->get_setting('G1T_FB_ProfileID') .'" />
-	<meta property="og:title" content="Website Hosting Services, VPS Hosting & Dedicated Servers | GoldFash Web Hosting | A GOD1ST Technologies Group Company."/>
+	<meta property="og:title" content="G1T GoldFash Web Hosting"/>
 	<meta property="og:image" content="'. $G1TGLOWPlugin->get_setting('G1T_FB_Profile_Image') .'"/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content="' .'"/>
+	<meta property="og:site_name" content="'. $G1TGLOWPlugin->get_setting('G1T_FB_Profile_SiteName') .'"/>
+	<meta property="og:description" content="'. $G1TGLOWPlugin->get_setting('G1T_FB_Profile_SiteDescription') .'"/>
 	<meta property="og:url" content="'. $G1TGLOWPlugin->get_setting('G1T_FB_Profile_URL') .'"/>';    
      }
 }
