@@ -70,7 +70,7 @@ global $wp_version;
 			<td>Views</td>
 			<td><a><? echo $thisView->a1; ?></a></td>
 			<td><a><?php echo $thisView->a2; ?></a></td>
-			<td><?php echo $thisView->Source; ?></td>
+			<td><a href="https://goldfash.com/views/?do=Analytics&views=api&view=qu&ss=<?php echo $_SERVER['HTTP_HOST'] ;?>&ref=<?php echo $_SERVER['HTTP_HOST'] ;?>/wp-admin/admin.php?page=G1T"><?php echo $thisView->Source; ?></a></td>
 		</tr>
 
 		
