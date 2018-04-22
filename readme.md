@@ -5,7 +5,7 @@ Donate link: https://goldfash.com
 Requires at least: 4.9.4
 Tested up to: 4.9.4
 Requires PHP: 5.0.1
-Stable tag: 2.0
+Stable tag: 2.3
 License: Private
 License URI: https://goldfash.com?pluginLicense
 
@@ -25,8 +25,9 @@ We try our best to provide support via approved methods. However, One-on-one ema
 Install the plugin & you\'re good to go! If anything changes we will highlight it here!
 
 == Changelog ==
-= 2.0.1 (27th March 2018) =
-* Added: Detailed G1T Analytics
+= 2.3 (21th April 2018) =
+* Added: Detailed G1T Login Welcome Splash
+* Added: Facebook OG Meta Properties
 * Fixed: Header Issues for versions less than 4.9.4
 
 == Upgrade Notice ==
