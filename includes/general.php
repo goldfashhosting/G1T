@@ -134,15 +134,15 @@ if (PARENT_THEME == 'canvas') {
 
 
 	function remove_canvas_actions() {
-		global $G1TPlugin;
+		global $G1TGLOWPlugin;
 
 		// remove woo inline styling
-		if ( $G1TPlugin->get_setting('enable_woo_custom_css') != "yes") {
+		if ( $G1TGLOWPlugin->get_setting('enable_woo_custom_css') != "yes") {
 			remove_action( 'woothemes_wp_head_before', 'woo_enqueue_custom_styling', 9 );
 		}
 
 		// remove woo nav
-		if ( $G1TPlugin->get_setting('remove_woo_nav') == "yes") {
+		if ( $G1TGLOWPlugin->get_setting('remove_woo_nav') == "yes") {
 			remove_action( 'woo_header_after','woo_nav', 10 );
 		}
 
@@ -373,8 +373,8 @@ function wpse145940_hide_hidden_title( $title, $postid ) {
 
 function bb_dash_default() {
 
-	global $G1TPlugin;		
-	if ( $G1TPlugin->get_setting('disable_dash_welcome') != "yes") {	
+	global $G1TGLOWPlugin;		
+	if ( $G1TGLOWPlugin->get_setting('disable_dash_welcome') != "yes") {	
 	   return  admin_url( 'index.php?page=dashboard' );
 	   }
 }
