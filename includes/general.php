@@ -374,9 +374,7 @@ function wpse145940_hide_hidden_title( $title, $postid ) {
 function bb_dash_default() {
 
 	global $G1TPlugin;		
-	if ( $G1TPlugin->get_setting('disable_dash_welcome') != "yes") {	
-	   return  admin_url( 'index.php?page=dashboard' );
-	   }
+	
 }
 
 add_filter('login_redirect', 'bb_dash_default');
