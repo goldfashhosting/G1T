@@ -221,7 +221,7 @@ function gold_admin_notice() {
         /* Check that the user hasn't already clicked to ignore the message */
 	if ( ! get_user_meta($user_id, 'gold_ignore_notice') ) {
         echo '<div class="updated"><p>'; 
-        printf(__('* G1T Analytics is Enabled! | <a href="%1$s" target="G1TD">Visit GLOW SETTINGS for more details.</a>'), 'index.php?page=dashboard');
+        printf(__('* G1T Analytics is Enabled! | <a href="%1$s">Visit GLOW SETTINGS for more details.</a>'), 'index.php?page=dashboard');
         echo "</p></div>";
 	}
 }
