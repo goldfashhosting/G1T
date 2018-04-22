@@ -57,7 +57,7 @@ add_action('login_head',  'my_custom_login_logo');
 
 function remove_footer_admin ()
 {
-	echo '<span>G1T Version: ' . G1T_VERSION_NUM .' | </span><span>Developed by <a href="http://raison.co" target="_blank">Raison - Wordpress & WooCommerce Developers</a></span>';
+	echo '<span>G1T Version: ' . G1T_VERSION_NUM .' | </span><span>Developed by <a href="http://goldfash.com" target="_blank">GOD1ST TECHNOLOGIES GROUP INC. - PenHubs Group & GoldFash Developers</a></span>';
 }
 add_filter('admin_footer_text', 'remove_footer_admin');
 
