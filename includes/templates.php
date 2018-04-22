@@ -31,7 +31,7 @@ function custom_page_template_redirect() {
     global $wp_query;
     $custom_page = $wp_query->query_vars['custom'];
     if ($custom_page == 'style') {
-        include(BAMBOO_PLUGIN_DIR .'/templates/style_template.php');
+        include(G1T_PLUGIN_DIR .'/templates/style_template.php');
 
         exit;
     }
